@@ -21,7 +21,7 @@
 
 					<!-- Logo -->
 						<div id="logo">
-							<h1><a href="index.html">Lesson 07</a></h1>
+							<h1><a>Lesson 07</a></h1>
 							<p>Lists and tuples</p>
 						</div>
 
@@ -39,8 +39,8 @@
 										<li><a href="L04.html">Lesson 4</a></li>
 										<li><a href="L05.html">Lesson 5</a></li>
 										<li><a href="L06.html">Lesson 6</a></li>
-										<li><a href="left-sidebar.html">Lesson 8</a></li>
-										<li><a href="no-sidebar.html">Lesson 9</a></li>
+										<li><a href="L08.html">Lesson 8</a></li>
+										<li><a href="L09.html">Lesson 9</a></li>
 											</ul>
 										</li>
 					
@@ -65,42 +65,49 @@
 											<a href="#" class="image featured">
 												<img src="images/pic01.jpg" alt="" />
 											</a>
-											<p>&nbsp;&nbsp;&nbsp;&nbspคือ โครงสร้างที่ขั้นตอนการทำงานบางขั้นตอนได้รับการประมวลผลมากกว่า 1 ครั้ง ทั้งนี้ขึ้นอยู่กับเงื่อนไขบางประการ โครงสร้างแบบทำซ้ำนี้ต้องมีการตัดสินใจในการทำงานซ้ำ และลักษณะการทำงานของโครงสร้างแบบนี้มี 2 ลักษณะ ได้แก่</p>
+											<p>&nbsp;&nbsp;&nbsp;&nbsp tuplesเป็นลำดับที่สามารถเก็บข้อมูลประเภทต่างๆได้ ความแตกต่างระหว่าง list และ tuples นั้นง่ายมาก:</p>
+                                            <p><strong>List</strong> &nbsp;&nbsp;เปลี่ยนแปลงได้ซึ่งหมายความว่าโปรแกรมสามารถเปลี่ยนเนื้อหาได้ </p>
+                                            <p><strong>Tuple</strong> &nbsp;&nbsp;นั้นไม่สามารถเปลี่ยนแปลงได้ซึ่งหมายความว่าเมื่อสร้างแล้วเนื้อหาจะไม่สามารถเปลี่ยนแปลงได้ </p>
 											
-                                                <p><h1>แบบที่มีการตรวจสอบเงื่อนไขในการทำซ้ำทุกครั้งก่อนดำเนินการกิจกรรมใดๆ</h1>&nbsp;&nbsp;&nbsp;&nbsp ถ้าเงื่อนไขเป็นจริงจะทำงานซ้ำไปเรื่อยๆ และหยุดเมื่อเงื่อนไขเป็นเท็จ การทำงานลักษณะนี้แบ่งได้เป็น 2 แบบย่อย ได้แก่ การทำซ้ำแบบ for และแบบ while ลักษณะการทำงานของทั้งสองแบบนี้จะเหมือนกัน โดยสำหรับแบบ for นั้นมักใช้กรณีที่ต้องการกำหนดจำนวนรอบการทำงานที่ชัดเจน</p>
+                                                <p><h2 ALIGN="CENTER">List</h2></p>
                                             
                                                 <a href="#" class="image featured">
                                                     <img src="images/pic01.jpg" alt="" />
                                                 </a>
-                                                <p><h1>แบบที่มีการดำเนินการกิจกรรมใดๆ ก่อนจำนวนหนึ่งรอบ แล้วจึงค่อยตรวจสอบเงื่อนไขในการทำซ้ำ</h1>&nbsp;&nbsp;&nbsp;&nbsp ถ้าเงื่อนไขเป็นจริงจะทำงานซ้ำไปเรื่อยๆ และหยุดเมื่อเงื่อนไขเป็นเท็จ เรียกการทำงานแบบนี้ว่า การทำซ้ำแบบ do…while</p>
+                                                <p>&nbsp;&nbsp;&nbsp;&nbsp เป็นวัตถุที่มีข้อมูลหลายรายการ เปลี่ยนแปลงได้ซึ่งหมายความว่า เนื้อหาสามารถเปลี่ยนแปลงได้ในระหว่างการดำเนินการของโปรแกรมรายการเป็นโครงสร้างข้อมูลแบบไดนามิก หมายความว่า รายการอาจถูกเพิ่มหรือลบออกจากรายการคุณสามารถใช้การทำดัชนีการแบ่งส่วนและวิธีการต่างๆเพื่อทำงานกับรายการในโปรแกรมรายการ</p>
 											<a href="#" class="image featured">
                                                 <img src="images/pic01.jpg" alt="" />
                                             </a>
-                                            <p>....</p>
+                                            <p><strong>List</strong> : วัตถุข้อมูลหลายรายการ</p>
+                                            <p><strong>องค์ประกอบ</strong> : วัตถุต่างๆในรายการ </p>
+                                            <p><strong>รูปแบบ</strong> : list = [ item1, item2, etc.] </p>
+                                            <p><strong>สามารถใส่ของได้หลายประเภท</strong></p>
+                                            <p><strong>print</strong> ฟังก์ชันการพิมพ์สามารถใช้แสดงรายการทั้งหมดได้</p>
+                                            <p><strong>list()</strong> ฟังก์ชั่นสามารถแปลงวัตถุบางประเภทเป็นรายการ</p>
+                                            <p><h2 ALIGN="CENTER">List Methods and Useful Built-in Functions</h2></p>
                                             
+                                                <a href="#" class="image featured">
+                                                    <img src="images/pic01.jpg" alt="" />
+                                                </a>
+                                            <p><strong>Repetition operator</strong> : ทำสำเนาหลายชุดของรายการและรวมเข้าด้วยกัน</p>
+                                            <p>&nbsp;&nbsp;&nbsp;&nbsp : สัญลักษณ์ * เป็นโอเปอเรเตอร์การทำซ้ำเมื่อใช้กับลำดับและจำนวนเต็ม </p>
+                                            <p>&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp ลำดับ คือ ตัวถูกดำเนินการทางซ้ายตัวเลขอยู่ทางขวารูปแบบทั่วไป</p>
+                                            <p>Genaral format : <strong>list * n</strong></p>
+                                            <p>รูปแบบ : <strong>for x in list:</strong></p>
+
+											<a href="#" class="image featured">
+                                                <img src="images/pic01.jpg" alt="" />
+                                            </a>
+
+                                            <p>ข้อยกเว้น<strong>IndexError</strong> จะเพิ่มขึ้นหากใช้ดัชนีที่ไม่ถูกต้อง</p>
+                                            <p>ฟังก์ชัน<strong>Len</strong> : ส่งกลับความยาวของลำดับ เช่น list </p>
+                                            <p>&nbsp;&nbsp;&nbsp;&nbsp ตัวอย่าง: size = len( my_ list)</p>
+                                            <p>ส่งกลับจำนวนองค์ประกอบในรายการ ดังนั้น ดัชนีขององค์ประกอบสุดท้ายคือ <strong>len(list)-1</strong></p>
+                                            <p>สามารถใช้เพื่อป้องกันข้อยกเว้น <strong>IndexError</strong> เมื่อวนซ้ำรายการที่มีลูป</p>
+
 										</article>
 										<div class="row gtr-150">
-											<div class="col-6 col-12-small">
-												<section class="box">
-													<header>
-														<h2 ALIGN="CENTER">While</h2>
-													</header>
-													<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
-													<p>&nbsp;&nbsp;&nbsp;&nbsp ใช้ควบคุมโปรแกรมให้ทำงานบางอย่างซ้ำๆ ในขณะที่เงื่อนไขของลูปนั้นยังคงเป็นจริงอยู่ &nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp </p>
-													&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp <a ALIGN="CENTER" href="L03 while.html" class="button style1">More</a>
-												</section>
-											</div>
-											<div class="col-6 col-12-small">
-												<section class="box">
-													<header>
-														<h2 ALIGN="CENTER">For</h2>
-													</header>
-													<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
-													<p ALIGN="CENTER">คำสั่งวนซ้ำที่ใช้ควบคุมการทำงานซ้ำๆ ในจำนวนรอบที่แน่นอน ในภาษา Python นั้นคำสั่ง for loop จะแตกต่างจากภาษาอื่นๆ</p>
-													&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp<a href="L03 for.html" class="button style1" >More</a>
-                                                    
-                                                </section>
-											</div>
+											
 										</div>
 									</div>
 
@@ -115,38 +122,68 @@
 											</header>
 											<ul class="style2">
 												<li>
-													<article class="box post-excerpt">
-														<a href="#" class="image left"><img src="images/pic08.jpg" alt="" /></a>
-														<h3><a>Compiler</a></h3>
-														<p>&nbsp;&nbsp;&nbsp;&nbsp เป็นโปรแกรมคอมพิวเตอร์ที่ทำหน้าที่แปลงชุดคำสั่งภาษาคอมพิวเตอร์หนึ่งไปเป็นชุดคำสั่งที่มีความหมายเดียวกัน ในภาษาคอมพิวเตอร์อื่น คอมไพเลอร์ส่วนใหญ่จะทำการแปลรหัสต้นฉบับ (source code) ที่เขียนในภาษาระดับสูง เป็นภาษาระดับต่ำหรือภาษาเครื่อง ซึ่งคอมพิวเตอร์สามารถที่จะทำงานได้โดยตรง อย่างไรก็ตามการแปลจากภาษาระดับต่ำเป็นภาษาระดับสูงก็เป็นไปได้ โดยใช้ตัวแปลโปรแกรมย้อนกลับ (decompiler)</p>
+													<article>
+														
+														<h3><a>append(item)</a></h3>
+														<p>: เพื่อเพิ่มรายการลงในรายการ <strong>-item</strong> ถูกต่อท้ายรายการที่มี </p>
 													</article>
 												</li>
 												<li>
-													<article class="box post-excerpt">
-														<a href="#" class="image left"><img src="images/pic09.jpg" alt="" /></a>
-														<h3><a>Interpreter</a></h3>
-														<p>&nbsp;&nbsp;&nbsp;&nbsp หมายถึง โปรแกรมคอมพิวเตอร์ที่ทำงานตามชุดคำสั่งที่เขียนไว้ทันที ซึ่งไม่เหมือนกับคอมไพเลอร์ (compiler) ที่แปลชุดคำสั่งจากภาษาคอมพิวเตอร์ภาษา
-                                                            หนึ่งไปเป็นอีกภาษาหนึ่งก่อนทำงาน (โดยส่วนมากจะแปลเป็นภาษาเครื่อง)
-                                                            โดยทั่วไปแล้วการทำงานของโปรแกรมผ่านอินเทอร์พรีเตอร์จะช้ากว่าทำงานจากโปรแกรมที่ผ่านการแปลโปรแกรมเป็นภาษาเครื่องแล้ว เพราะอินเทอร์พรีเตอร์จะต้องแปลแต่ละคำสั่งในระหว่างการทำงานว่าจะต้องทำอะไรต่อไป
-                                                            
+													<article>
+														
+														<h3><a>index(item)</a></h3>
+														<p>: ใช้เพื่อกำหนดตำแหน่งของในรายการส่งกลับดัชนีขององค์ประกอบแรกในรายการที่มีรายการเพิ่มข้อยกเว้น <strong>valueError</strong> หาก <strong>item</strong> ไม่อยู่ในรายการ
                                                             </p>
 													</article>
 												</li>
 												<li>
-													<article class="box post-excerpt">
-														<a href="#" class="image left"><img src="images/pic10.jpg" alt="" /></a>
-														<h3><a>Program Development cycle</a></h3>
-														<p>ขั้นตอนหรือกระบวนการทำงานที่นักพัฒนาโปรแกรม (Programmer) ใช้ในการสร้างโปรแกรม โดยวงจรการพัฒนาโปรแกรมจะมีแนวทาง และขั้นตอนการปฏิบัติต่างๆ ที่จะช่วยให้การทำงานเป็นไปในทิศทางเดียวกันและง่ายต่อการพัฒนาโปรแกรม ซึ่งวงจรการพัฒนาโปรแกรมจะมีขั้นตอนทั้งหมด 6 ขั้นตอน</p>
+													<article >
+														<h3><a>insert(index,item)</a></h3>
+														<p>: ใช้แทรกรายการที่ดัชนีตำแหน่งในรายการ </p>
 													</article>
-                                                
+                                                </li>
+                                                <li>
+                                                    <article >
+														<h3><a>sort()</a></h3>
+														<p>: ใช้เพื่อจัดเรียงองค์ประกอบของรายการตามลำดับจากน้อยไปมาก </p>
+													</article>
+                                                </li>
+                                                <li>
+                                                    <article >
+														<h3><a>remove(item)</a></h3>
+														<p>: ลบรายการที่เกิดขึ้นครั้งแรกในรายการ </p>
+													</article>
+                                                </li>
+                                                <li>
+                                                    <article >
+														<h3><a>reverse()</a></h3>
+														<p>: กลับลำดับขององค์ประกอบในรายการ</p>
+													</article>
+                                                </li>
+                                                <li>
+                                                    <article >
+														<h3><a>del statement</a></h3>
+														<p>: ลบองค์ประกอบออกจากดัชนีเฉพาะในรายการ</p>
+                                                        <p>&nbsp;&nbsp;&nbsp;&nbsp รูปแบบทั่วไป: <strong>del list[i]</strong></p>
+													</article>
+                                                </li>
+                                                <li>
+                                                    <article >
+														<h3><a>ฟังก์ชัน <strong>min</strong> และ <strong>max</strong></a></h3>
+														<p>: ฟังก์ชันในตัวที่ส่งคืนรายการที่มีค่าต่ำสุดหรือสูงสุดในลำดับถูกส่งผ่านเป็นอาร์กิวเมนต์</p>
+                                                        
+													</article>
+                                                </li>
+                                                        <p>&nbsp;&nbsp;&nbsp;&nbsp</p>
+                                                        
                                                         <header>
                                                             <h2>&nbsp;&nbsp;&nbsp;&nbsp ข้อมูลเพิ่มเติม</h2>
                                                         </header>
                                                         <ul class="style3">
-                                                            <li>&nbsp;&nbsp;&nbsp;&nbsp<a href="L03 cal.html">Calculating</a></li>
-                                                            <li>&nbsp;&nbsp;&nbsp;&nbsp<a href="L03 sentinel.html">Sentinels</a></li>
-                                                            <li>&nbsp;&nbsp;&nbsp;&nbsp<a href="L03 inpyt va.html">Input Validation</a></li>
-                                                            <li>&nbsp;&nbsp;&nbsp;&nbsp<a href="L03 nested loop.html">Nested Loops</a></li>
+                                                            <li>&nbsp;&nbsp;&nbsp;&nbsp<a href="L07 two.html">Two dimensional lists</a></li>
+                                                            <li>&nbsp;&nbsp;&nbsp;&nbsp<a href="L07 tuples.html">Tuples</a></li>
+                                                            <li>&nbsp;&nbsp;&nbsp;&nbsp<a href="L07 mathplo.html">mathplot</a></li>
+                                                           
                                                             
                                                         </ul>
 												</li>
@@ -168,24 +205,21 @@
 							<div class="col-4 col-12-medium">
 								<section class="highlight">
 									<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-									<h3><a href="#">Pass</a></h3>
-									<p>&nbsp;&nbsp;&nbsp;&nbsp คือ คำสั่งหนึ่งที่ระบุว่าไม่มีการดำเนินการใดๆ ในบรรทัดนั้น มักจะใช้ในกรณีที่มีการวางโครงสร้างโปรแกรมเอาไว้ แต่ยังไม่ได้ลงรายละเอียดในการระบุคำสั่ง ตัวแปลภาษาจะประมวลผลโค้ดส่วนดังกล่าวเป็นภาษาที่คอมพิวเตอร์เข้าใจ ซึ่งตัวคำสั่ง pass นั้นเอาไว้ทำการระบุว่า ยังไม่ต้องการให้มีการกระทำการใดๆ ตรงบรรทัดนี้</p>
-					
+									<h3><a>Listtest.py</a></h3>
+									
 								</section>
 							</div>
 							<div class="col-4 col-12-medium">
 								<section class="highlight">
 									<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-									<h3><a href="#">Continue</a></h3>
-									<p>&nbsp;&nbsp;&nbsp;&nbsp คือ หลังจากเจอ statement ที่เรากำหนด ก็ให้ตรวจที่ statement ถัดไป ไว้สำหรับออกจากลูปปัจจุบันที่กำลังทำงานอยู่ แล้วไม่ทำงาน</p>
+									<h3><a>Barista_pay.py</a></h3>
 									
 								</section>
 							</div>
 							<div class="col-4 col-12-medium">
 								<section class="highlight">
 									<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-									<h3><a href="#">Break</a></h3>
-									<p>&nbsp;&nbsp;&nbsp;&nbsp คือ การให้โค้ดของเราหยุดทำงาน เมื่อเข้าสู่ statement ที่เรากำหนดเพื่อออกจากการทำงานวนซ้ำ</p>
+									<h3><a>Listoperator.py</a></h3>
 									
 								</section>
                                 </div>
@@ -202,17 +236,7 @@
 			<!-- Footer -->
 				<section id="footer" class="wrapper">
 					<div class="title"></div>
-					<div class="container">
-						<header class="style1">
-							
-						</header>
-						<div class="row">
-							<div class="col-6 col-12-medium">
-
-								
-
-							</div>
-						</div>
+					
 						<div id="copyright">
 							<ul>
 								<li>&copy; FITM:INE</li><li>Design: <a href="https://github.com/Ponthawan">Pornthawan</a></li>
