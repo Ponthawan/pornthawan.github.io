@@ -1,0 +1,245 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Left Sidebar - Escape Velocity by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main1.css" />
+		<link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+			<style>
+			body {
+				font-family: 'Sriracha', cursive;
+				font-size: 18px;
+				}
+			</style>
+	</head>
+	<body class="left-sidebar is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header" class="wrapper">
+
+					<!-- Logo -->
+						<div id="logo">
+							<h1><a >Lesson 8</a></h1>
+							<p>Dictionary and set</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li>
+									<a href="#">Lesson 8</a>
+									<ul>
+                                        <li><a href="L00.html">Lesson 0</a></li>
+										<li><a href="L01.html">Lesson 1</a></li>
+										<li><a href="L02.html">Lesson 2</a></li>
+										<li><a href="L03.html">Lesson 3</a></li>
+										<li><a href="L04.html">Lesson 4</a></li>
+										<li><a href="L05.html">Lesson 5</a></li>
+										<li><a href="L06.html">Lesson 6</a></li>
+										<li><a href="L07.html">Lesson 7</a></li>
+										<li><a href="L09.html">Lesson 9</a></li>
+											</ul>
+										</li>
+					
+							</ul>
+						</nav>
+
+				</section>
+
+			<!-- Main -->
+				<section id="main" class="wrapper style2">
+					<div class="title"></div>
+					<div class="container">
+						<div class="row gtr-150">
+							<div class="col-4 col-12-medium">
+
+								<!-- Sidebar -->
+									<div id="sidebar">
+										
+										<section class="box">
+											<header>
+												<h2>Some dictionary methods</h2>
+											</header>
+											<ul class="style2">
+												<li>
+													<article>
+														<h3><a>clear </a></h3>
+														<p>ล้างเนื้อหาของ dictionary</p>
+													</article>
+												</li>
+                                                <li>
+													<article>
+														<h3><a>get </a></h3>
+														<p>ค่าที่เกี่ยวข้องกับคีย์ที่ระบุหากไม่พบคีย์เมธอดรับไม่ได้ยกข้อยกเว้นแต่กลับเป็นค่าเริ่มต้นแทน</p>
+													</article>
+												</li>
+                                                <li>
+													<article>
+														<h3><a>items </a></h3>
+														<p>ส่งกลับคีย์ทั้งหมดใน dictionaryและค่าที่เกี่ยวข้องเป็นลำดับของสิ่งอันดับ </p>
+													</article>
+												</li>
+                                                <li>
+													<article>
+														<h3><a>keys </a></h3>
+														<p>ส่งกลับคีย์ทั้งหมดในพจนานุกรมเป็นลำดับของทูเพิล </p>
+													</article>
+												</li>
+                                                <li>
+													<article>
+														<h3><a>pop </a></h3>
+														<p>ส่งคืนค่าที่เกี่ยวข้องกับคีย์ที่ระบุและลบคู่ของคีย์ - ค่านั้นออกโผล่จากพจนานุกรมหากไม่พบคีย์เมธอดจะส่งกลับค่าเริ่มต้น </p>
+													</article>
+												</li>
+                                                <li>
+													<article>
+														<h3><a>popitem </a></h3>
+														<p>ส่งกลับคู่คีย์ - ค่าที่เลือกแบบสุ่มเป็นทูเพิลจากพจนานุกรมและลบคู่คีย์ - ค่านั้นออกจากพจนานุกรม</p>
+													</article>
+												</li>
+                                                <li>
+													<article>
+														<h3><a>values </a></h3>
+														<p>ส่งกลับค่าทั้งหมดในพจนานุกรมเป็นลำดับของสิ่งอันดับ</p>
+													</article>
+												</li>
+											</ul>
+											
+										</section>
+										<section class="box">
+											<header ALIGN="CENTER">
+												<h2>&nbsp;&nbsp;&nbsp;&nbspเนื้อหาเพิ่มเติม</h2>
+											</header>
+											<ul class="style3">
+												<li>&nbsp;&nbsp;&nbsp;&nbsp<a href="L08 sets.html">Sets</a></li>
+												<li>&nbsp;&nbsp;&nbsp;&nbsp<a href="L08 Serial.html">Serialising Objects</a></li>
+												
+											</ul>
+										</section>
+									</div>
+
+							</div>
+							<div class="col-8 col-12-medium imp-medium">
+
+								<!-- Content -->
+									<div id="content">
+										<article class="box post">
+											<header class="style1">
+												<h2>Dictionaries</h2>
+											</header>
+                                        <ul ALIGN="CENTER">   
+											<p><strong>Dictionary</strong> : วัตถุที่เก็บชุดข้อมูล</p>
+                                            <p>&nbsp;&nbsp;&nbsp;&nbsp - แต่ละองค์ประกอบ ประกอบด้วยคีย์และค่า</p>
+                                            <p>&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp - มักเรียกว่าการจับคู่คีย์กับค่า</p>
+                                            <p>&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp - คีย์ต้องเป็นวัตถุที่ไม่เปลี่ยนรูป </p>
+                                            <p>&nbsp;&nbsp;&nbsp;&nbsp ในการดึงค่าเฉพาะให้ใช้คีย์ที่สัมพันธ์กับค่านั้น </p>
+                                            
+                                            
+												<h2>รูปแบบการสร้าง Dictionaries</h2>
+											
+                                            <p>Dictionary = {key1:val1, key2:val2}</p>
+                                        </ul> 
+                                        
+                                            <a href="#" class="image featured">
+												<img src="images/pic01.jpg" alt="" />
+											</a>
+                                            <header class="style1">
+												<h2>Add and Delete dictionary</h2>
+											</header>
+                                        
+                                            <p>Dictionaries : เป็นวัตถุที่เปลี่ยนแปลงได้</p>
+											<p>ในการเพิ่มคู่คีย์- ค่าใหม่ : dictionary[key] = ค่า</p>
+                                            <p>&nbsp;&nbsp;&nbsp;&nbsp หากมีคีย์อยู่ใน dictionary ค่าที่เกี่ยวข้องกับคีย์จะถูกเปลี่ยน </p>
+                                            <p>วิธีลบคู่คีย์- ค่า : del dictionary [key] </p>
+                                            <p>&nbsp;&nbsp;&nbsp;&nbsp หากคีย์ไม่อยู่ในdictionaryข้อยกเว้นของ KeyError จะเพิ่มขึ้น</p>
+
+                                            <a href="#" class="image featured">
+												<img src="images/pic01.jpg" alt="" />
+											</a>
+                                            <ul ALIGN="CENTER">
+                                                <strong>Dictionary number of elements and mixing data type</strong>
+                                            </ul>
+                                            <a href="#" class="image featured">
+												<img src="images/pic01.jpg" alt="" />
+											</a>
+                                            <p>ฟังก์ชัน len: ใช้เพื่อรับจำนวนองค์ประกอบใน dictionary  </p>
+                                            <p><strong>keys ต้องเป็นอ็อบเจ็กต์</strong>ที่ไม่เปลี่ยนรูปแต่ค่าที่เกี่ยวข้องสามารถเป็นอ็อบเจกต์ประเภทใดก็ได้</p>
+                                            <p>&nbsp;&nbsp;&nbsp;&nbsp dictionary หนึ่งรายการสามารถรวมคีย์ของประเภทที่ไม่เปลี่ยนรูปแบบต่างๆได้ </p>
+
+                                            <strong>Creating an emply dictionary and using for loop</strong>
+                                            
+                                            <p>ในการสร้าง dictionary เปล่า:</p>
+                                            <p>: ใช้ {} </p>
+                                            <p>: ใช้ฟังก์ชันในตัว dict()</p>
+                                            <p>: สามารถเพิ่มองค์ ประกอบลงใน dictionary เมื่อโปรแกรมดำเนินการ </p>
+                                            <p>ใช้ for วนซ้ำใน dictionary รูปแบบทั่วไป<strong> for key in dictionary:</strong></p>
+                                            <a href="#" class="image featured">
+												<img src="images/pic01.jpg" alt="" />
+											</a>
+                                            <p>&nbsp;&nbsp;&nbsp;&nbsp ในตัวอย่าง เป็นการประกาศตัวแปร String แบบการใช้หลายบรรทัด String literal ทั้งหมดนั้นจะต้องอยู่ภายใน """ เนื่องจากเราต้องการจัดรูปแบบของ String ให้สวยงาม ดังนั้นเราจึงต้อง Newline ลงมาเขียนในบรรทัดถัดมา ดังนั้นเราสามารถใช้เครื่องหมาย \ เพื่อลบ Newline ออกไปได้ นี่เป็นผลลัพธ์ของโปรแกรม</p>
+											<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
+													
+										</article>
+									
+											
+										</div>
+									</div>
+
+							</div>
+						</div>
+					</div>
+				</section>
+
+			<!-- Highlights -->
+				<section id="highlights" class="wrapper style3">
+
+					<div class="title">Other </div>
+					<div class="container">
+						<div class="row aln-center">
+							<div class="col-4 col-12-medium">
+								<section class="highlight">
+									<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+									<h3><a href="#">Fordict.py</a></h3>
+									
+								</section>
+							</div>
+							<div class="col-4 col-12-medium">
+								<section class="highlight">
+									<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+									<h3><a href="#">Dictionary exercises</a></h3>
+									<p>ฝึกใช้ Dictionary</p>
+                                    <ul class="actions">
+                                        <li><a href="https://holypython.com/beginner-python-exercises/exercise-8-python-dictionaries/" class="button style1">Go to wepsite</a></li>
+                                    </ul>
+                                </section>
+							</div>
+							<div class="col-4 col-12-medium">
+								<section class="highlight">
+									<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+									<h3><a href="#">Dictmethods.py</a></h3>
+									
+								</section>
+							</div>
+						</div>
+                        <div ALIGN="CENTER">
+                            <ul class="actions">
+                                <li><a href="L08.html" class="button style1">Get Started</a></li>
+                            </ul>
+                    </div>
+					</div>
+				</section>	
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
