@@ -1,7 +1,12 @@
 <!DOCTYPE HTML>
+<!--
+	Escape Velocity by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
 	<head>
-		<title>Right Sidebar - Escape Velocity by HTML5 UP</title>
+		<title>No Sidebar - Escape Velocity by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main1.css" />
@@ -13,189 +18,94 @@
 				}
 			</style>
 	</head>
-	<body class="right-sidebar is-preload">
+	<body class="no-sidebar is-preload">
 		<div id="page-wrapper">
 
 			<!-- Header -->
 				<section id="header" class="wrapper">
 
 					<!-- Logo -->
-						<div id="logo">
-							<h1><a>Lesson 07</a></h1>
-							<p>Lists and tuples</p>
-						</div>
+                    <div id="logo">
+                        <h1><a >Lesson 9</a></h1>
+                        <p>Pygame-zero</p>
+                    </div>
 
 					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li><a href="index.html">Home</a></li>
-								<li>
-									<a href="#">Lesson 7</a>
-									<ul>
-										<li><a href="L00.html">Lesson 0</a></li>
-										<li><a href="L01.html">Lesson 1</a></li>
-										<li><a href="L02.html">Lesson 2</a></li>
-                                        <li><a href="L03.html">Lesson 3</a></li>
-										<li><a href="L04.html">Lesson 4</a></li>
-										<li><a href="L05.html">Lesson 5</a></li>
-										<li><a href="L06.html">Lesson 6</a></li>
-										<li><a href="L08.html">Lesson 8</a></li>
-										<li><a href="L09.html">Lesson 9</a></li>
-											</ul>
-										</li>
-					
-							</ul>
-						</nav>
-
+                    <nav id="nav">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li>
+                                <a href="#">Lesson 9</a>
+                                <ul>
+                                    <li><a href="L00.html">Lesson 0</a></li>
+                                    <li><a href="L01.html">Lesson 1</a></li>
+                                    <li><a href="L02.html">Lesson 2</a></li>
+                                    <li><a href="L03.html">Lesson 3</a></li>
+                                    <li><a href="L04.html">Lesson 4</a></li>
+                                    <li><a href="L05.html">Lesson 5</a></li>
+                                    <li><a href="L06.html">Lesson 6</a></li>
+                                    <li><a href="L07.html">Lesson 7</a></li>
+                                    <li><a href="L08.html">Lesson 8</a></li>
+                                        </ul>
+                                    </li>
+                
+                        </ul>
+                    </nav>
 				</section>
 
 			<!-- Main -->
-				<section id="main" class="wrapper style2">
+				<div id="main" class="wrapper style2">
 					<div class="title"></div>
 					<div class="container">
-						<div class="row gtr-150">
-							<div class="col-8 col-12-medium">
 
-								<!-- Content -->
-									<div id="content">
-										<article class="box post">
-											<header class="style1">
-												<h2>Introduction to lists</h2>
-											</header>
-											<a href="#" class="image featured">
-												<img src="images/pic01.jpg" alt="" />
-											</a>
-											<p>&nbsp;&nbsp;&nbsp;&nbsp tuplesเป็นลำดับที่สามารถเก็บข้อมูลประเภทต่างๆได้ ความแตกต่างระหว่าง list และ tuples นั้นง่ายมาก:</p>
-                                            <p><strong>List</strong> &nbsp;&nbsp;เปลี่ยนแปลงได้ซึ่งหมายความว่าโปรแกรมสามารถเปลี่ยนเนื้อหาได้ </p>
-                                            <p><strong>Tuple</strong> &nbsp;&nbsp;นั้นไม่สามารถเปลี่ยนแปลงได้ซึ่งหมายความว่าเมื่อสร้างแล้วเนื้อหาจะไม่สามารถเปลี่ยนแปลงได้ </p>
-											
-                                                <p><h2 ALIGN="CENTER">List</h2></p>
-                                            
-                                                <a href="#" class="image featured">
-                                                    <img src="images/pic01.jpg" alt="" />
-                                                </a>
-                                                <p>&nbsp;&nbsp;&nbsp;&nbsp เป็นวัตถุที่มีข้อมูลหลายรายการ เปลี่ยนแปลงได้ซึ่งหมายความว่า เนื้อหาสามารถเปลี่ยนแปลงได้ในระหว่างการดำเนินการของโปรแกรมรายการเป็นโครงสร้างข้อมูลแบบไดนามิก หมายความว่า รายการอาจถูกเพิ่มหรือลบออกจากรายการคุณสามารถใช้การทำดัชนีการแบ่งส่วนและวิธีการต่างๆเพื่อทำงานกับรายการในโปรแกรมรายการ</p>
-											<a href="#" class="image featured">
-                                                <img src="images/pic01.jpg" alt="" />
-                                            </a>
-                                            <p><strong>List</strong> : วัตถุข้อมูลหลายรายการ</p>
-                                            <p><strong>องค์ประกอบ</strong> : วัตถุต่างๆในรายการ </p>
-                                            <p><strong>รูปแบบ</strong> : list = [ item1, item2, etc.] </p>
-                                            <p><strong>สามารถใส่ของได้หลายประเภท</strong></p>
-                                            <p><strong>print</strong> ฟังก์ชันการพิมพ์สามารถใช้แสดงรายการทั้งหมดได้</p>
-                                            <p><strong>list()</strong> ฟังก์ชั่นสามารถแปลงวัตถุบางประเภทเป็นรายการ</p>
-                                            <p><h2 ALIGN="CENTER">List Methods and Useful Built-in Functions</h2></p>
-                                            
-                                                <a href="#" class="image featured">
-                                                    <img src="images/pic01.jpg" alt="" />
-                                                </a>
-                                            <p><strong>Repetition operator</strong> : ทำสำเนาหลายชุดของรายการและรวมเข้าด้วยกัน</p>
-                                            <p>&nbsp;&nbsp;&nbsp;&nbsp : สัญลักษณ์ * เป็นโอเปอเรเตอร์การทำซ้ำเมื่อใช้กับลำดับและจำนวนเต็ม </p>
-                                            <p>&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp;&nbsp;&nbsp ลำดับ คือ ตัวถูกดำเนินการทางซ้ายตัวเลขอยู่ทางขวารูปแบบทั่วไป</p>
-                                            <p>Genaral format : <strong>list * n</strong></p>
-                                            <p>รูปแบบ : <strong>for x in list:</strong></p>
-
-											<a href="#" class="image featured">
-                                                <img src="images/pic01.jpg" alt="" />
-                                            </a>
-
-                                            <p>ข้อยกเว้น<strong>IndexError</strong> จะเพิ่มขึ้นหากใช้ดัชนีที่ไม่ถูกต้อง</p>
-                                            <p>ฟังก์ชัน<strong>Len</strong> : ส่งกลับความยาวของลำดับ เช่น list </p>
-                                            <p>&nbsp;&nbsp;&nbsp;&nbsp ตัวอย่าง: size = len( my_ list)</p>
-                                            <p>ส่งกลับจำนวนองค์ประกอบในรายการ ดังนั้น ดัชนีขององค์ประกอบสุดท้ายคือ <strong>len(list)-1</strong></p>
-                                            <p>สามารถใช้เพื่อป้องกันข้อยกเว้น <strong>IndexError</strong> เมื่อวนซ้ำรายการที่มีลูป</p>
-
-										</article>
-										<div class="row gtr-150">
-											
-										</div>
-									</div>
-
+						<!-- Content -->
+							<div id="content">
+								<article class="box post">
+									<header class="style1">
+										<h2>Installation</h2>
+									</header>
+                                    <p ALIGN="CENTER">-pip3 install pgzero</p>
+									<a class="image featured">
+										<img src="images/pic01.jpg" alt="" />
+									</a>
+									<h1 ALIGN="CENTER">Shoot the fruit</h1>
+                                    <a class="image featured">
+										<img src="images/pic01.jpg" alt="" />
+									</a>
+                                    <h1 ALIGN="CENTER">Coin collection</h1>
+									<p ALIGN="CENTER">coins.py(step 1)</p>
+                                    <a class="image featured">
+										<img src="images/pic01.jpg" alt="" />
+									</a>
+									<p ALIGN="CENTER">coins.py(step 2)</p>
+                                    <a class="image featured">
+										<img src="images/pic01.jpg" alt="" />
+									</a>
+									<p ALIGN="CENTER">coins.py(step 3)</p>
+                                    <a class="image featured">
+										<img src="images/pic01.jpg" alt="" />
+									</a>
+                                    <p ALIGN="CENTER">coins.py(step 4)</p>
+                                    <a class="image featured">
+										<img src="images/pic01.jpg" alt="" />
+									</a>
+									<p ALIGN="CENTER">coins.py(step 5)</p>
+                                    <a class="image featured">
+										<img src="images/pic01.jpg" alt="" />
+									</a>
+									<p ALIGN="CENTER">coins.py(step 6)</p>
+                                    <a class="image featured">
+										<img src="images/pic01.jpg" alt="" />
+									</a>
+                                    <p ALIGN="CENTER">coins.py(step 7)</p>
+                                    <a class="image featured">
+										<img src="images/pic01.jpg" alt="" />
+									</a>
+								</article>
 							</div>
-							<div class="col-4 col-12-medium">
 
-								<!-- Sidebar -->
-									<div id="sidebar">
-										
-											<header>
-												<h2>สาระเพิ่มเติม</h2>
-											</header>
-											<ul class="style2">
-												<li>
-													<article>
-														
-														<h3><a>append(item)</a></h3>
-														<p>: เพื่อเพิ่มรายการลงในรายการ <strong>-item</strong> ถูกต่อท้ายรายการที่มี </p>
-													</article>
-												</li>
-												<li>
-													<article>
-														
-														<h3><a>index(item)</a></h3>
-														<p>: ใช้เพื่อกำหนดตำแหน่งของในรายการส่งกลับดัชนีขององค์ประกอบแรกในรายการที่มีรายการเพิ่มข้อยกเว้น <strong>valueError</strong> หาก <strong>item</strong> ไม่อยู่ในรายการ
-                                                            </p>
-													</article>
-												</li>
-												<li>
-													<article >
-														<h3><a>insert(index,item)</a></h3>
-														<p>: ใช้แทรกรายการที่ดัชนีตำแหน่งในรายการ </p>
-													</article>
-                                                </li>
-                                                <li>
-                                                    <article >
-														<h3><a>sort()</a></h3>
-														<p>: ใช้เพื่อจัดเรียงองค์ประกอบของรายการตามลำดับจากน้อยไปมาก </p>
-													</article>
-                                                </li>
-                                                <li>
-                                                    <article >
-														<h3><a>remove(item)</a></h3>
-														<p>: ลบรายการที่เกิดขึ้นครั้งแรกในรายการ </p>
-													</article>
-                                                </li>
-                                                <li>
-                                                    <article >
-														<h3><a>reverse()</a></h3>
-														<p>: กลับลำดับขององค์ประกอบในรายการ</p>
-													</article>
-                                                </li>
-                                                <li>
-                                                    <article >
-														<h3><a>del statement</a></h3>
-														<p>: ลบองค์ประกอบออกจากดัชนีเฉพาะในรายการ</p>
-                                                        <p>&nbsp;&nbsp;&nbsp;&nbsp รูปแบบทั่วไป: <strong>del list[i]</strong></p>
-													</article>
-                                                </li>
-                                                <li>
-                                                    <article >
-														<h3><a>ฟังก์ชัน <strong>min</strong> และ <strong>max</strong></a></h3>
-														<p>: ฟังก์ชันในตัวที่ส่งคืนรายการที่มีค่าต่ำสุดหรือสูงสุดในลำดับถูกส่งผ่านเป็นอาร์กิวเมนต์</p>
-                                                        
-													</article>
-                                                </li>
-                                                        <p>&nbsp;&nbsp;&nbsp;&nbsp</p>
-                                                        
-                                                        <header>
-                                                            <h2>&nbsp;&nbsp;&nbsp;&nbsp ข้อมูลเพิ่มเติม</h2>
-                                                        </header>
-                                                        <ul class="style3">
-                                                            <li>&nbsp;&nbsp;&nbsp;&nbsp<a href="L07 two.html">Two dimensional lists</a></li>
-                                                            <li>&nbsp;&nbsp;&nbsp;&nbsp<a href="L07 tuples.html">Tuples</a></li>
-                                                            <li>&nbsp;&nbsp;&nbsp;&nbsp<a href="L07 mathplo.html">mathplot</a></li>
-                                                           
-                                                            
-                                                        </ul>
-												</li>
-											</ul>
-											
-										
-									</div>
-
-							</div>
-						</div>
 					</div>
-				</section>
+				</div>
 
 			<!-- Highlights -->
 				<section id="highlights" class="wrapper style3">
@@ -205,29 +115,25 @@
 							<div class="col-4 col-12-medium">
 								<section class="highlight">
 									<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-									<h3><a>Listtest.py</a></h3>
+									<h3><a href="#">First</a></h3>
 									
 								</section>
 							</div>
 							<div class="col-4 col-12-medium">
 								<section class="highlight">
 									<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-									<h3><a>Barista_pay.py</a></h3>
-									
+									<h3><a href="#">PGhello.py</a></h3>
+									<ul class="actions">
+                                        <li><a href="L09.html" class="button style1">Get Started</a></li>
+									</ul>
 								</section>
 							</div>
 							<div class="col-4 col-12-medium">
 								<section class="highlight">
 									<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-									<h3><a>Listoperator.py</a></h3>
+									<h3><a>PGHELLO.py</a></h3>
 									
 								</section>
-                                </div>
-                                <div ALIGN="CENTER">
-                                    <ul class="actions">
-                                        <li><a href="L07.html" class="button style1">Get Started</a></li>
-                                    </ul>
-                            </div>
 							</div>
 						</div>
 					</div>
@@ -235,18 +141,19 @@
 
 			<!-- Footer -->
 				<section id="footer" class="wrapper">
-					<div class="title"></div>
-					
-						<div id="copyright">
-							<ul>
-								<li>&copy; FITM:INE</li><li>Design: <a href="https://github.com/Ponthawan">Pornthawan</a></li>
-							</ul>
-						</div>
-					</div>
+                    <div class="title"></div>       
+                        <div ALIGN="CENTER">
+
+                                <div id="copyright">
+                                    <ul>
+                                        <li>&copy; FITM:INE</li><li>Design: <a href="https://github.com/Ponthawan">Pornthawan</a></li>
+                                    </ul>
+                                </div>
+                        </div>
 				</section>
 
 		</div>
-
+        
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
